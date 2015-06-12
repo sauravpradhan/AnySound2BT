@@ -8,19 +8,18 @@ import android.view.View;
 import android.widget.ToggleButton;
 
 public class MainActivity extends Activity {
-
+	AudioManager audioM = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		audioM = (AudioManager) getApplicationContext().getSystemService(getApplicationContext().AUDIO_SERVICE);
 	}
 	public void onToggleClicked(View view) {
 
 		boolean on = ((ToggleButton) view).isChecked();
-		AudioManager audioM = (AudioManager) getApplicationContext().getSystemService(getApplicationContext().AUDIO_SERVICE);
 
 		if (on) {
-
 			// TODO Auto-generated method stub
 			audioM.setMode(audioM.MODE_IN_CALL);
 			audioM.setBluetoothScoOn(true);
@@ -36,6 +35,13 @@ public class MainActivity extends Activity {
 			Log.d("BT","Toggle Button Off!");
 
 		}
+	}
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		audioM.setMode(AudioManager.MODE_NORMAL);
+		audioM.setSpeakerphoneOn(true);
+		super.onDestroy();
 	}
 
 }
