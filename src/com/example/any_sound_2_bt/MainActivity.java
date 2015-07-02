@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
 		if (on) {
 			// TODO Auto-generated method stub
-			audioM.setMode(audioM.MODE_IN_CALL);
+			audioM.setMode(audioM.MODE_IN_COMMUNICATION);
 			audioM.setBluetoothScoOn(true);
 			audioM.startBluetoothSco();
 			audioM.setSpeakerphoneOn(false);
