@@ -403,7 +403,12 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f020037
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020038
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020039
 int drawable abc_textfield_search_material 0x7f02003a
-int drawable ic_launcher 0x7f02003b
+int drawable github 0x7f02003b
+int drawable ic_launcher 0x7f02003c
+int drawable icon 0x7f02003d
+int drawable index 0x7f02003e
+int drawable twit 0x7f02003f
+int drawable twitter 0x7f020040
 int id action_bar 0x7f090040
 int id action_bar_activity_content 0x7f090003
 int id action_bar_container 0x7f09003f
@@ -417,7 +422,7 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09003d
 int id action_mode_bar_stub 0x7f09003c
 int id action_mode_close_button 0x7f090025
-int id action_settings 0x7f090050
+int id action_settings 0x7f090055
 int id activity_chooser_view_content 0x7f090026
 int id alertTitle 0x7f090030
 int id always 0x7f090019
@@ -442,6 +447,7 @@ int id homeAsUp 0x7f09000e
 int id icon 0x7f09002b
 int id ifRoom 0x7f09001b
 int id image 0x7f090028
+int id image1 0x7f090053
 int id listMode 0x7f09000a
 int id list_item 0x7f09002a
 int id middle 0x7f090022
@@ -477,9 +483,13 @@ int id src_over 0x7f090018
 int id submit_area 0x7f09004b
 int id tabMode 0x7f09000c
 int id textSpacerNoButtons 0x7f090033
+int id textView1 0x7f09004f
+int id textView2 0x7f090050
+int id textView4 0x7f090052
+int id textView5 0x7f090054
 int id title 0x7f09002c
 int id title_template 0x7f09002f
-int id toggleButton1 0x7f09004f
+int id toggleButton1 0x7f090051
 int id topPanel 0x7f09002e
 int id up 0x7f090001
 int id useLogo 0x7f090013
