@@ -18,3 +18,17 @@ This is a simple trick to play the audio in BT even when not in call.
 #APK Link
 You can directly test the APK from the below link:
 https://drive.google.com/file/d/0Byaspar4S5SEVndNb09EZFNnTmc/view?usp=sharing
+
+#License
+Copyright 2015 Saurav Pradhan
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
