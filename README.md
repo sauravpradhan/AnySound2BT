@@ -7,7 +7,7 @@ This is a simple trick to play the audio in BT even when not in call.
 
 #How to use:
 
-->You should be connected to the Bluetooth Device.
+->You should be connected to the Bluetooth Device(Updated code to only toggle button if BT is connected|paired).
 
 ->Now Go to this application and toggle the button "ON".
 
@@ -17,7 +17,7 @@ This is a simple trick to play the audio in BT even when not in call.
 
 #APK Link
 You can directly test the APK from the below link:
-https://drive.google.com/file/d/0Byaspar4S5SEVndNb09EZFNnTmc/view?usp=sharing
+https://drive.google.com/file/d/0Byaspar4S5SEWk9VNmQwcm5KdTQ/view?usp=sharing
 
 #License
 Copyright 2015 Saurav Pradhan
