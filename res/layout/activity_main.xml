@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.any_sound_2_bt.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
+        android:text="AnySound2BT"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="5dp"
+        android:text="Version 1.2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <!--
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:text="This free utility lets you play music (and other audio) through any Bluetooth headset, even if the headset was designed to support phone calls only."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    -->
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="72dp"
+        android:onClick="onToggleClicked"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_marginBottom="5dp"
+        android:text="Steps:
+        \n1) Should be connected to the BT Device(Non-A2DP).
+        \n2) Now open the app Press the Toggle Button On.
+        \n3) Enjoy the music in BT."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_below="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:tag="https://github.com/sauravpradhan/" />
+<!--     <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twit"
+        android:tag="https://twitter.com/" /> -->
+         <TextView
+        android:id="@+id/textView5"
+        android:text="Developers Github!"
+        android:layout_below="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+</RelativeLayout>
