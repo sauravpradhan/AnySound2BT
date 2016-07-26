@@ -1,5 +1,5 @@
 # AnySound2BT
-Force android to play audio and MP3 in non-A2DP BT headset.
+Force android to play audio and MP3 in non-A2DP BT headset.  :metal:
 
 #Background:
 In Android non A2DP headsets(like single ear BT devices) is not allowed to play non-call audio.
