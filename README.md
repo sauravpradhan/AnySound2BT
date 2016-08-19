@@ -15,6 +15,8 @@ This is a simple trick to play the audio in BT even when not in call.
 
 ->Sound should be routed to the BT device.
 
+->Please report an github issue if any device is not able to route audio to BT.
+
 #APK Link
 You can directly test the APK from the below link:
 https://drive.google.com/file/d/0Byaspar4S5SEWk9VNmQwcm5KdTQ/view?usp=sharing
