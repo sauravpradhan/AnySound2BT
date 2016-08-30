@@ -15,7 +15,7 @@ This is a simple trick to play the audio in BT even when not in call.
 
 ->Sound should be routed to the BT device.
 
-->Please report an github issue if any device is not able to route audio to BT.
+->Please report an github issue if any device is not able to route audio to BT.(Recently found a crash on connecting to Logitech X300 , if anybody finds it please please attach logs!)
 
 #APK Link
 You can directly test the APK from the below link:
