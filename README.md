@@ -24,6 +24,9 @@ https://drive.google.com/file/d/0Byaspar4S5SEWk9VNmQwcm5KdTQ/view?usp=sharing
 #License
 Copyright 2015-16 Saurav Pradhan
 
+#Feature Request
+Possible! Just raise and issue for the feature you guys want. As simple as that ! Will try to return with the feasibility and APK real soon .  :exclamation:
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
