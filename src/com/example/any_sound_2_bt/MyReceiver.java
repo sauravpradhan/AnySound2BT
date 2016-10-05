@@ -10,19 +10,22 @@ import android.widget.Toast;
 public class MyReceiver extends BroadcastReceiver {
 	public static Boolean isBTConnected = false;
 	@Override
-	public void onReceive(Context context, Intent intent) {
+	public void onReceive(Context context, Intent action) {
 		// TODO Auto-generated method stub
-		String action = intent.getAction();
-		//Toast.makeText(context, "Saurav!"+action, Toast.LENGTH_SHORT).show();
-		if (BluetoothDevice.ACTION_ACL_CONNECTED.equals(action)) {
-			Log.d("S@ur@v","Acl Connected!");
-			Toast.makeText(MainActivity.ctx, "ACL connected", Toast.LENGTH_SHORT).show();
-			isBTConnected = true;
-		}
-		else if (BluetoothDevice.ACTION_ACL_DISCONNECTED.equals(action)) {
-			Log.d("S@ur@v","Acl Disconnected!");
-			Toast.makeText(MainActivity.ctx, "ACL Disconnected", Toast.LENGTH_SHORT).show();
-			isBTConnected = false;
+		if (intent != null) {
+			String action = intent.getAction();
+			if (action != null) {
+				//Toast.makeText(context, "Saurav!"+action, Toast.LENGTH_SHORT).show();
+				if (BluetoothDevice.ACTION_ACL_CONNECTED.equals(action)) {
+					Log.d("S@ur@v", "Acl Connected!");
+					Toast.makeText(MainActivity.ctx, "ACL connected", Toast.LENGTH_SHORT).show();
+					isBTConnected = true;
+				} else if (BluetoothDevice.ACTION_ACL_DISCONNECTED.equals(action)) {
+					Log.d("S@ur@v", "Acl Disconnected!");
+					Toast.makeText(MainActivity.ctx, "ACL Disconnected", Toast.LENGTH_SHORT).show();
+					isBTConnected = false;
+				}
+			}
 		}
 	}
 
