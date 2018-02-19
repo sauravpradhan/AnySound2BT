@@ -25,7 +25,7 @@ https://drive.google.com/file/d/0Byaspar4S5SEWk9VNmQwcm5KdTQ/view?usp=sharing
 Possible! Just raise and issue for the feature you guys want. As simple as that ! Will try to return with the feasibility and APK real soon .  :exclamation:
 
 #License
-Copyright 2015-16 Saurav Pradhan
+Copyright 2015-18 Saurav Pradhan
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
