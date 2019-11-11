@@ -24,10 +24,11 @@ https://drive.google.com/file/d/0Byaspar4S5SEWk9VNmQwcm5KdTQ/view?usp=sharing
 #Feature Request
 Possible! Just raise and issue for the feature you guys want. As simple as that ! Will try to return with the feasibility and APK real soon .  :exclamation:
 
-#TO-DO
+#TODO
 1) Android 10 Compatibility(Can somebody fork and help me if this works in Android10?)
 #License
 Copyright 2015-18 Saurav Pradhan
+
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
